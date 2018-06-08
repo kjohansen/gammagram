@@ -1,0 +1,21 @@
+Accelerated Reflexes
+Bio
+You kick your reaction speed into overdrive.
+Free Action, Personal
+Trigger: You start your turn
+Effect: You gain a +2 power bonus to attack rolls and to all defenses until the end of your next turn. In addition, you shift 3 squares and take a standard action
+Overcharge: When you use this power, you can roll a d20
+10+: You can use this power a second time on your next turn while this card is readied
+9 or less: At the end of your turn, you are stunned until the end of your next turn.
+Unstable Vibroblade
+Area 52
+The malfunctioning device generates a sword-shaped force field that can cut through almost anything.
+Weapon: 2-hand melee
+Power: Encounter Force, Physical
+Standard Action, Melee 1
+Target: One creature
+Attack: Level + 6 vs. Fortitude
+Hit: 3d6 + Dexterity modifier + twice your level force damage, and ongoing 5 physical damage (save ends).
+Special: You can take ongoing 5 force damage (save ends) to make this power a melee 3 attack.. Salvage 3: A 3rd-level character can salvage the Unstable Vibroblade. It becomes A light 2-hand melee weapon: Dex/Int
++3 accuracy
+2d8 physical damage.

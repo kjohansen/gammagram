@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<title>Page Title</title>
+</head>
+<body>
+<iframe src="it.html" height="250" width="150" style="border:none;"></iframe>
+<div class="alpha-card" >
+  <p id="alpha-text"> ho ho </p>
+  <button type="button" onclick="alphUpdate()">Halpha</button>
+</div>
+
+<script>
+/* this will only work if a server's up. til then, shove the card into a filthy iframe */
+function alphUpdate() {
+  var xhr= new XMLHttpRequest();
+  xhr.open('GET', 'it.txt', true);
+  xhr.onreadystatechange= function() {
+    if (this.readyState!==4) return;
+    if (this.status!==200) return; // or whatever error handling you want
+    document.getElementById('alpha-text').innerHTML= this.responseText;
+  };
+  xhr.send();
+}
+</script>
+
+<p id="omega-card"> </p>
+<script>
+function omegUpdate() {
+
+}
+</script>
+<script>
+
+
+</script>
+
+</body>
+</html>

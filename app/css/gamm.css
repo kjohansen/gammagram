@@ -1,0 +1,26 @@
+#alpha-text, #omega-text {
+
+}
+
+.alpha-card {}
+.omega-card {}
+.alpha-card, .omega-card {
+  background-color:#4CAF50;
+  padding:20px;
+  float:left;
+  /*width:200px;*/ /* The width is 20%, by default */
+}
+
+.alpha-hand {}
+.omega-hand {}
+.alpha-hand, .omega-hand {
+  padding:20px;
+  float:left;
+  width:100%; /* The width is 50%, by default */
+}
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width:800px) {
+  .alpha-hand, .omega-hand {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
